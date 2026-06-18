@@ -10,12 +10,11 @@
     "esModuleInterop": true,
     "module": "Node16",
     "moduleResolution": "Node16",
-    "ignoreDeprecations": "6.0",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }
